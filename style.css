@@ -281,17 +281,15 @@ body{
 .best-selling{
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
     overflow: hidden;
     height: auto;
-    margin: 0 20px;
+    margin: 80px 20px 0 20px;
 }
 .best-selling h2{
-    padding-left: 32px;
+    padding-left: 10px;
     margin-bottom: 24px;
     font-size: 32px;
 }
-
 .best-chair{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -423,4 +421,5 @@ footer {
     color: #F7F4EF;
     text-align: center;
     margin-top: 20px;
+    padding: 20px;
 }
